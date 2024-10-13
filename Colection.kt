@@ -26,3 +26,14 @@ class Colection {
         // Mengubah data didalam List Mutable
         shape[0]= "Oval"
         println(shape)
+
+        //List Read-Only
+        val shapesLocked: List<String> = shape
+        println(shapesLocked)
+
+    }
+
+    fun main() {
+        ContohList()
+    }
+}
